@@ -21,7 +21,7 @@ body {
   width: auto;
   height: auto;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("https://images.unsplash.com/photo-1523374228107-6e44bd2b524e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")
+    url("../Assets/Images/Black\ Tech\ Data\ Privacy\ Day\ Instagram\ Story.jpg")
       center no-repeat;
   background-size: cover;
   position: relative;
@@ -425,22 +425,11 @@ h2 {
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 .project-card-body {
-  /* solid background */
-  /* background: rgb(0,212,255);  */
-
-  /* gradient background*/
-  /* background: linear-gradient(45deg, rgba(0,212,255,1) 0%, rgba(11,3,45,1) 100%);     */
-
-  /* photo background */
-  /* background-image: url(https://images.unsplash.com/photo-1619204715997-1367fe5812f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1889&q=80); */
-  /* background-size: cover;
-  background-position: center;   */
-
   display: grid;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin: -15rem;
+  margin: -6rem;
   padding: 5.5rem;
   grid-auto-flow: column;
 }
@@ -467,7 +456,8 @@ h2 {
 }
 
 .banner-image {
-  background-image: url(https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+  background-image: url("../Assets/Images/adblock.jpg");
+
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -555,21 +545,38 @@ h2 {
 } */
 
 /* footer */
+/* 
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 50px;
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.5rem;
+}
+
 #sm-footer {
   position: relative;
+
   bottom: 0;
-  background-color: rgb(236, 216, 216);
+  background-color: rgb(235, 190, 190);
   width: 100vw;
   height: 15vh;
   display: flex;
   justify-content: space-evenly;
   font-size: 2rem;
   font-family: "Roboto Slab", sans-serif;
-  color: azure;
-  border: khaki;
+  margin: 0rem;
+  padding: 0.5rem;
 }
 
-/* a,
+.subfooter-header {
+  font: sans-serif;
+  display: flex;
+  text-align: center;
+}
+a,
 a:visited {
   color: white;
   text-decoration: none;
